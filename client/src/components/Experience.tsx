@@ -4,8 +4,8 @@ const experiences = [
   {
     period: "Nov 2023 - Present",
     role: "Senior Software Developer",
-    company: "Horizon AI & Cloud Services",
-    location: "Houston, Texas, United States",
+    company: "StackPath",
+    location: "Dallas, Texas, United States",
     skills: ["Python", "Node.js", "React", "Next.js", "FastAPI", "Express.js", "LLMs", "RAG Pipelines", "Vector Databases", "AWS", "Docker", "DevOps", "PostgreSQL"],
     description: "Full Stack & AI Development. Developed and deployed scalable AI-driven web and mobile applications for various industries. Designed and implemented complex backend architectures and intuitive frontend experiences."
   },
@@ -20,16 +20,16 @@ const experiences = [
   {
     period: "Mar 2017 - Nov 2019",
     role: "Senior Backend Engineer",
-    company: "StarTechPC.com",
-    location: "Austin, Texas, United States · On-site",
+    company: "Roofstock",
+    location: "Oakland, California, United States · On-site",
     skills: ["Python", "Node.js", "Express", "NLP", "Machine Learning", "Microservices", "React", "Vue.js", "Angular"],
     description: "Python & Node PHP | Backend Development. Architected and built high-performance backend systems and microservices. Integrated advanced NLP and machine learning models to enhance product capabilities."
   },
   {
     period: "Jan 2014 - Dec 2016",
     role: "Full Stack Developer",
-    company: "Paycom",
-    location: "Oklahoma City, Oklahoma, United States · Remote",
+    company: "ThredUp",
+    location: "Oakland, California, United States · Remote",
     skills: ["C#/.NET", "Java", "JavaScript", "Node.js", "MongoDB", "Angular", "Nuxt.js", "WordPress", "Shopify"],
     description: "Frontend & Backend Development, CMS Development. Developed and maintained diverse web applications and e-commerce platforms. Specialized in creating custom CMS solutions and optimizing frontend performance."
   }

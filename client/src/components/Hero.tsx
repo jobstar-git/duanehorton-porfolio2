@@ -48,7 +48,7 @@ export default function Hero() {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="mailto:duanehorton.jobstar213@gmail.com"
+                href="mailto:duanehorton.jobstar213@outlook.com"
                 className="text-muted-foreground hover:text-primary transition-colors hover:-translate-y-1 transform duration-200"
               >
                 <Mail className="w-6 h-6" />
@@ -80,7 +80,7 @@ export default function Hero() {
                 Contact Me
               </a>
               <a
-                href="./../DuaneHorton.pdf"
+                href="/resume.pdf"
                 className="px-8 py-3 border border-white/20 bg-transparent hover:bg-white/5 rounded-full font-medium transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2 min-w-[160px]"
               >
                 <Download className="w-5 h-5" /> Download CV
