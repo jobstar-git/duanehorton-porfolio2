@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a personal portfolio website for Duane Horton, a Senior Software Developer with 10+ years of experience. The application showcases professional experience, projects, skills, and provides a contact form. It's built as a full-stack application with a React frontend and Express backend, designed for deployment on Replit.
+This is a personal portfolio website for Duane Horton, a Senior Full Stack Developer with 10+ years of experience. The application showcases professional experience, projects, skills, and provides a contact form. It's built as a full-stack application with a React frontend and Express backend, designed for deployment on Replit.
 
 ## User Preferences
 

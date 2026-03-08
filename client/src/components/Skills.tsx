@@ -187,24 +187,17 @@ export default function Skills() {
               <ShieldCheck className="w-8 h-8 text-primary" />
               Academic Foundation
             </h3>
-            <div className="grid md:grid-cols-2 gap-0 relative">
+            <div className="grid md:grid-cols-2 gap-6 relative">
                 {/* Master's */}
-                <div className="p-10 bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl hover:border-primary/30 transition-all shadow-xl relative z-10 md:-mr-8 md:mt-8">
+            
+                {/* Bachelor's */}
+                <div className="p-10 bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl hover:border-primary/30 transition-all shadow-xl relative z-20">
                     <div className="flex justify-between items-baseline mb-4">
-                      <h4 className="font-bold text-2xl tracking-tight">Master of Science</h4>
+                      <h4 className="font-bold text-2xl tracking-tight">Bachelor of Science</h4>
                       <span className="text-primary font-bold bg-primary/10 px-4 py-1 rounded-full text-xs tracking-wider uppercase">2010 - 2013</span>
                     </div>
                     <p className="text-xl font-medium mb-1 text-foreground">Computer Science</p>
-                    <p className="text-muted-foreground text-sm uppercase tracking-wider font-light">University of Houston-Clear Lake</p>
-                </div>
-                {/* Bachelor's */}
-                <div className="p-10 bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl hover:border-primary/30 transition-all shadow-xl relative z-20 md:mb-8">
-                    <div className="flex justify-between items-baseline mb-4">
-                      <h4 className="font-bold text-2xl tracking-tight">Bachelor of Science</h4>
-                      <span className="text-primary font-bold bg-primary/10 px-4 py-1 rounded-full text-xs tracking-wider uppercase">2006 - 2010</span>
-                    </div>
-                    <p className="text-xl font-medium mb-1 text-foreground">Software Engineering</p>
-                    <p className="text-muted-foreground text-sm uppercase tracking-wider font-light">University of Houston-Clear Lake</p>
+                    <p className="text-muted-foreground text-sm uppercase tracking-wider font-light">Northeastern University</p>
                 </div>
             </div>
         </motion.div>

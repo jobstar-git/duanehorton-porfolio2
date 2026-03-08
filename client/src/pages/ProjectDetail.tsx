@@ -224,7 +224,7 @@ export default function ProjectDetail() {
                   <div className="absolute -left-6 top-0 bottom-0 w-1 bg-primary/20 rounded-full" />
                   <h2 className="text-3xl font-bold mb-6 tracking-tight">Project Overview</h2>
                   <p className="text-xl text-muted-foreground leading-relaxed font-light">
-                    {project.description}
+                    <span className="inline-block w-[2ch]" />{project.description}
                   </p>
                 </section>
 
@@ -262,7 +262,7 @@ export default function ProjectDetail() {
                   </div>
 
                   <h3 className="font-bold mb-6 text-xl tracking-tight border-b border-border pb-4">Availability</h3>
-                  <div className="grid gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <motion.a 
                       href={project.links.demo} 
                       target="_blank" 
@@ -281,6 +281,17 @@ export default function ProjectDetail() {
                       <span>Launch Project</span>
                       <ExternalLink className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                     </motion.a>
+                    {project.links.github && project.links.github !== "#" && (
+                      <motion.a 
+                        href={project.links.github} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="flex items-center justify-between p-4 rounded-xl bg-secondary text-secondary-foreground hover:bg-secondary/80 transition-all font-bold group shadow-lg border border-border"
+                      >
+                        <span>View Source</span>
+                        <Github className="w-5 h-5 group-hover:rotate-12 transition-transform" />
+                      </motion.a>
+                    )}
                   </div>
                 </div>
               </div>

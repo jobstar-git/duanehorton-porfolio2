@@ -106,20 +106,20 @@ export default function Projects() {
                 />
                 
                 {/* Overlay - Always dark for contrast with text */}
-                <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-6 text-center backdrop-blur-sm">
-                  <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-300 ease-out">
-                    <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
-                    <p className="text-gray-300 mb-4 text-lg">{project.company}</p>
+                <div className="absolute inset-0 bg-black/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-4 sm:p-6 text-center backdrop-blur-sm">
+                  <div className="flex flex-col items-center justify-center h-full translate-y-4 group-hover:translate-y-0 transition-transform duration-300 ease-out">
+                    <h3 className="text-lg sm:text-2xl font-bold text-white mb-2 line-clamp-2">{project.title}</h3>
+                    <p className="text-gray-300 mb-4 text-base sm:text-lg">{project.company}</p>
                     
-                    <div className="flex flex-wrap justify-center gap-2 mb-6">
-                      {project.skills.map((skill) => (
+                    <div className="flex flex-wrap justify-center gap-2 mb-6 hidden sm:flex">
+                      {project.skills.slice(0, 3).map((skill) => (
                         <span key={skill} className="text-xs px-2 py-1 rounded-full bg-blue-500/20 text-blue-100 border border-blue-500/30 font-medium">
                           {skill}
                         </span>
                       ))}
                     </div>
                     
-                    <div className="inline-flex items-center gap-2 text-white font-medium border-b border-blue-400 pb-0.5 hover:text-blue-300 transition-colors">
+                    <div className="inline-flex items-center gap-2 text-white font-medium border-b border-blue-400 pb-0.5 hover:text-blue-300 transition-colors text-sm sm:text-base">
                       View Case Study <ArrowUpRight className="w-4 h-4" />
                     </div>
                   </div>

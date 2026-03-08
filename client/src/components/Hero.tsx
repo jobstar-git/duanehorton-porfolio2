@@ -23,11 +23,11 @@ export default function Hero() {
 
             <h1 className="text-5xl md:text-8xl font-bold leading-tight mb-6 tracking-tight">
               <span className="block text-foreground">My name is</span>
-              <span className="block text-primary">Duane Horton</span>
+              <span className="block text-primary ml-6">Duane Horton</span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-muted-foreground font-medium mb-12">
-              Senior Software Developer
+            <p className="text-2xl md:text-3xl text-muted-foreground font-medium mb-12">
+              Senior Full Stack Developer
             </p>
 
             <div className="flex items-center gap-6">
@@ -48,7 +48,7 @@ export default function Hero() {
                 <Github className="w-6 h-6" />
               </a>
               <a
-                href="mailto:duanehorton.jobstar213@outlook.com"
+                href="mailto:duanehorton728@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors hover:-translate-y-1 transform duration-200"
               >
                 <Mail className="w-6 h-6" />
@@ -63,25 +63,23 @@ export default function Hero() {
             className="flex flex-col justify-center h-full pt-12"
           >
             <p className="text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed font-light">
-              I’m a senior software developer with 10+ years of experience
+              I’m a Senior Full Stack Developer with 10+ years of experience
               building scalable web applications, designing robust backend
               systems, and delivering intuitive frontend interfaces. I specialize
-              in technologies like Python, Node.js, C#, .NET, .NET Core, PhP,
-              React.js, Angular, Vue.js, Laravel, CMS and more. I also have strong
-              DevOps and AWS cloud experience. I have extensive experience
-              developing mobile applications.
+              in technologies like Python, Node.js, C#, .NET, React.js, Next, Angular, Vue and more. I also have strong
+              DevOps and AWS cloud experience.
             </p>
 
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-4 items-center sm:items-start">
               <a
                 href="#contact"
-                className="px-8 py-3 bg-primary text-primary-foreground rounded-full font-medium hover:scale-105 transition-all shadow-lg shadow-primary/20 active:scale-95 text-center min-w-[160px]"
+                className="w-full sm:w-auto px-8 py-3 bg-primary text-primary-foreground rounded-full font-medium hover:scale-105 transition-all shadow-lg shadow-primary/20 active:scale-95 text-center"
               >
                 Contact Me
               </a>
               <a
                 href="/resume.pdf"
-                className="px-8 py-3 border border-white/20 bg-transparent hover:bg-white/5 rounded-full font-medium transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2 min-w-[160px]"
+                className="w-full sm:w-auto px-8 py-3 border border-white/20 bg-transparent hover:bg-white/5 rounded-full font-medium transition-all hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
               >
                 <Download className="w-5 h-5" /> Download CV
               </a>
