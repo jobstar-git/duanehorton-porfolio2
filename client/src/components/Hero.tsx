@@ -63,11 +63,11 @@ export default function Hero() {
             className="flex flex-col justify-center h-full pt-12"
           >
             <p className="text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed font-light">
-              I’m a Senior Full Stack Developer with 10+ years of experience
-              building scalable web applications, designing robust backend
-              systems, and delivering intuitive frontend interfaces. I specialize
-              in technologies like Python, Node.js, C#, .NET, React.js, Next, Angular, Vue and more. I also have strong
-              DevOps and AWS cloud experience.
+             I’m a Senior Full-Stack Developer with 10+ years of experience building scalable web platforms, AI-powered systems, and high-performance backend infrastructure for startups and growing companies.
+
+I develop modern frontend applications using React, Next.js, Vue, Angular, WordPress, and Shopify, and build secure backend systems with Python, Node.js/NestJS, C#/.NET Core, and Java, including REST APIs and microservices.
+
+I also integrate AI/LLM solutions and cloud infrastructure using PostgreSQL, Redis, Docker, Kubernetes, AWS, and CI/CD to deliver reliable, scalable products from idea to production.
             </p>
 
             <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-4 items-center sm:items-start">
